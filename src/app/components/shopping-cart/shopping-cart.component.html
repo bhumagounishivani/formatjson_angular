@@ -1,0 +1,20 @@
+
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid" fxLayoutAlign="center" >
+    <div fxFlex="25%" fxFlex.xs="80%" fxFlex.sm="49%" *ngFor="let num of products">
+      <mat-card>
+        <img mat-card-image src="../../../assets/images/{{num.filename}}">
+        <mat-card-content>
+          <p>{{num.title}}</p>
+          <p>{{num.type}}</p>
+          <span style="color: red;">{{num.price | currency:'INR'}}</span>
+          {{setStar(num.rating)}}
+          <div *ngFor="let item of starList; let i=index " style="display: inline; float:right;">
+            <i *ngIf="item" class="fa fa-star-o"></i>    
+            <i *ngIf="!item" class="fa fa-star"></i>    
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

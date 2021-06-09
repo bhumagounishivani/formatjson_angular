@@ -1,0 +1,78 @@
+[{
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d6225",
+    "Query_type" : "General",
+    "Raised_by": "Suresh",
+    "Raised_on": "03-02-2021",
+    "Status" : "active" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d6226",
+    "Query_type" : "Transactional",
+    "Raised_by": "Ramesh",
+    "Raised_on": "04-03-2021",
+    "Status" : "inactive" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d6227",
+    "Query_type" : "General",
+    "Raised_by": "Vishwa",
+    "Raised_on": "21-04-2021",
+    "Status" : "inactive" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d6228",
+    "Query_type" : "Transactional",
+    "Raised_by": "Tanmayi",
+    "Raised_on": "28-03-2021",
+    "Status" : "active" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d6229",
+    "Query_type" : "General",
+    "Raised_by": "Seema",
+    "Raised_on": "27-02-2021",
+    "Status" : "inactive" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d622a",
+    "Query_type" : "Transactional",
+    "Raised_by": "Farah",
+    "Raised_on": "11-03-2021",
+    "Status" : "inactive" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d622b",
+    "Query_type" : "General",
+    "Raised_by": "Neha",
+    "Raised_on": "18-04-2021",
+    "Status" : "active" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d622c",
+    "Query_type" : "Transactional",
+    "Raised_by": "Rahul",
+    "Raised_on": "16-03-2021",
+    "Status" : "inactive" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d622d",
+    "Query_type" : "General",
+    "Raised_by": "Mahesh",
+    "Raised_on": "28-04-2021",
+    "Status" : "inactive" 
+  },
+  {
+    "Reference" : "19bd1a05608ab8d5d5a3e620707d622e",
+    "Query_type" : "Transactional",
+    "Raised_by": "Babitha",
+    "Raised_on": "01-05-2021",
+    "Status" : "active" 
+  },
+  {
+    "Reference" : "19bd1a05608ae9bad1e22a65346faf2b",
+    "Query_type" : "General",
+    "Raised_by": "Roshan",
+    "Raised_on": "14-03-2021",
+    "Status" : "inactive" 
+  }
+]

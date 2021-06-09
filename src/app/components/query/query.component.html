@@ -1,0 +1,40 @@
+<div style="overflow-x: auto;">
+    <p class="title">My Queries</p>
+    <table mat-table [dataSource]="d" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+      
+        <!-- Position Column -->
+        <ng-container matColumnDef="reference">
+          <th mat-header-cell *matHeaderCellDef class="myHeader"> Reference Number </th>
+          <td mat-cell *matCellDef="let element" class="myCell"><a style="color: white;text-decoration: none;">{{element.Reference}}</a></td>
+        </ng-container>
+      
+        <!-- Name Column -->
+        <ng-container matColumnDef="query_type">
+          <th  mat-header-cell *matHeaderCellDef class="myHeader"> Query Type</th>
+          <td mat-cell *matCellDef="let element" class="myCell"> {{element.Query_type}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="raised_by">
+            <th mat-header-cell *matHeaderCellDef class="myHeader">Raised by</th>
+            <td mat-cell *matCellDef="let element" class="myCell"> {{element.Raised_by}}</td>
+        </ng-container>
+    
+    
+        <ng-container matColumnDef="raised_on">
+        <th mat-header-cell *matHeaderCellDef class="myHeader">Raised on</th>
+        <td mat-cell *matCellDef="let element" class="myCell"> {{element.Raised_on}}</td>
+        </ng-container>
+    
+    
+        <ng-container matColumnDef="status">
+        <th mat-header-cell *matHeaderCellDef class="myHeader">Status</th>
+        <td mat-cell *matCellDef="let element" class="myCell"> {{element.Status}}</td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+</div>
